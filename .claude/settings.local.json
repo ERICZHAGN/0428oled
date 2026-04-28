@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cmake --build .)"
+      "Bash(cmake --build .)",
+      "Bash(git restore *)",
+      "Bash(git checkout *)"
     ]
   }
 }
