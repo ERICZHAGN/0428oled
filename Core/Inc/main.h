@@ -60,6 +60,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 
 /* USER CODE BEGIN Private defines */
+#define LCD_DC_Pin         GPIO_PIN_4
+#define LCD_DC_GPIO_Port   GPIOA
+#define LCD_RST_Pin        GPIO_PIN_8
+#define LCD_RST_GPIO_Port  GPIOA
+#define TP_RST_Pin         GPIO_PIN_11
+#define TP_RST_GPIO_Port   GPIOA
 
 /* USER CODE END Private defines */
 
