@@ -1,0 +1,35 @@
+# 编译产物
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# CubeMX 自动生成（可选保留 .ioc）
+*.log
+*.tmp
+
+# VSCode
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Keil / IAR
+*.uvprojx
+*.uvoptx
+*.ewp
+*.eww
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# 其他
+*.bak
+*.swp
